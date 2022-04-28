@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    color: white;
+}
+
+h2{
+    font-family: 'Fraunces', serif;
+}
+
+h5{
+    font-family: 'Fraunces', serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.buscar{
+    margin: 0;
+    padding: 0;
+    padding-top: 45px;
+}
+
+
+.color{
+    color: white;
+} 
+
+.Header{
+    background-color: #345444;
+    margin: 0;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.buscar{
+    margin: 0;
+    padding: 0;
+    padding-top: 55px;
+}
+
+.logo{
+    margin-top: 20px;
+   height: 80px;   
+}
+
+#date{
+    color: white;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+.busqueda{
+    border-style: hidden;
+}
+
+.fecha{
+    border-style: hidden;
+}
+
+.barraden{
+   padding: 40px;
+}
+
+.bodytext{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+
+
+
+.picfoOG{
+    height: 250px;
+    padding-bottom: 35px;
+    
+}
+
+.parrafo{
+    
+    padding-right: 40px;
+    padding-top: 40px;
+}
+
+.parrafo2{
+    
+    padding-right: 40px;
+    padding-top: 120px;
+}
+
+.titulo{
+
+    width: 100%;
+    height: 50px;
+    background-color: #345444;
+    
+    
+}
+
+.picfoOG2{
+
+    height: 250px;
+     padding-top: 35px;
+}
+
+
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #345444;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #3a4943;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: #b5c4bd;
+}
+.pie-pagina .grupo-2{
+    background-color:#3a4943;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}

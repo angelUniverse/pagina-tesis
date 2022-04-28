@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <!-- Iconos -->
+    <script src="https://kit.fontawesome.com/7a78332700.js" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Home</title>
+</head>
+<body>
+
+    <header class="Header"> <!-- Header -->
+      <div class style="padding-top: 10px;">
+          <img src="imageneshome/LogoSaynot.png" alt="" class="logo">
+      </div>  
+      <div class="buscar"> 
+          
+      </div>
+      <div class="date">
+        <label id='date'></label>
+      </div>
+    </header>
+
+     <!-- Menu de navegacion (navbar) -->
+    <div class="barraden d-flex justify-content-center">
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Lobby</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+          
+            <li class="nav-item">
+              <a class="nav-link" href="queson.html">¿Que son?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="marihuana.html">Marihuana</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="alcohol.html">Alcohol</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nicotina.html">Nicotina</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="centros.html">Centros de rehabilitacion</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </nav>
+          <!-- Carrusel de imagenes -->
+    <div class="carrusel d-flex justify-content-center">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="alcohol/champagne-g9d62aa0e4_1280.jpg" class="pixcaru" alt="" >
+          </div>
+          <div class="carousel-item">
+            <img src="marihuana/bud-g52d1770b6_1280.jpg" class="pixcaru" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="nicotina/cigarette-110849.jpg" class="pixcaru" alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="row m-4">
+      <div  class="col-12 col-md-4">
+        <img src="alcohol/champagne-g9d62aa0e4_1280.jpg" alt="" class="picfoOG">
+        <h2>Alcohol</h2>
+        <p class="parrafo">El alcohol es un depresor del sistema nervioso central que inhibe progresivamente la función cerebral. Deteriora la capacidad de autocontrol y produce inicialmente euforia y desinhibición, por lo que puede confundirse con un estimulante.</p>
+      </div>
+      
+      <div  class="col-12 col-md-4">
+        <img src="marihuana/bud-g52d1770b6_1280.jpg" alt="" class="picfoOG">
+        <h2>Marihuana</h2>
+        <p class="parrafo">La marihuana ess una droga depresora del sistema nervioso. Contiene en sus compuestos la molécula THC, que viene siendo el compuesto psicoactivo o psicotrópico de la planta de cannabis, presente en sus variedades o cepas que son más de 2500, surgiendo del cruce entre las subespecies (sativa, indica y ruderalis), seleccionadas con fines de usos recreativos y medicinales</p>
+      </div>
+      <div class="col-12 col-md-4" >
+        <img src="nicotina/cigarette-110849.jpg" alt="" class="picfoOG3">
+        <h2 class="titulo">Nicotina</h2>
+        <p class="parrafo">La nicotina es un compuesto orgánico, un alcaloide presente principalmente en la planta del tabaco, con una alta concentración en sus hojas y también está presente en otras plantas de la familia de las solanáceas, aunque en pequeñas cantidades, como es el caso de los tomates, las berenjenas, los pimientos y las patatas</p>
+      </div>
+    </div>
+   
+    <!--::::Pie de Pagina::::::-->
+    <footer class="pie-pagina">
+      <div class="grupo-1">
+          <div class="box">
+              <figure>
+                  <a href="#">
+                      <img src="imageneshome/LogoSaynot.png" alt="">
+                  </a>
+              </figure>
+          </div>
+          <div class="box">
+              <h2>SOBRE NOSOTROS</h2>
+              <p>Somos un sitio web de fines informativos</p>
+              <p>Buscando una solucion a la drogadiccion en jovenes</p>
+          </div>
+          <div class="box">
+              <h2>SIGUENOS</h2>
+              <div class="red-social">
+                  <a href="https://www.facebook.com/105416368803230/posts/105417062136494/?d=n&substory_index=0" class="fa fa-facebook" target=”_blank”></a>
+                  <a href="https://instagram.com/say_notodrugs1?utm_medium=copy_link" class="fa fa-instagram" target=”_blank”></a>
+                  <a href="https://twitter.com/saynoto26031308?s=11" class="fa fa-twitter" target=”_blank”></a>
+              </div>
+          </div>
+      </div>
+      <div class="grupo-2">
+          <small>&copy; 2022 <b>SayNOtoDrugs</b> - Todos los Derechos Reservados.</small>
+      </div>
+  </footer>
+
+    <script src="main.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
